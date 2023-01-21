@@ -30,7 +30,7 @@ const Services = () => {
     return (
         <div className='my-28 '>
             <div className='text-center'>
-                <h5 className='text-primary font-bold text-2xl'>our services</h5>
+                <h5 className='text-primary font-bold text-4xl'>Our Services</h5>
                 <h2 className='text-4xl'>Services We Provide</h2>
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-10'>

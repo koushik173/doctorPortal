@@ -7,7 +7,7 @@ const Review = () => {
                 <p>If a dog chews shoes whose shoes does he choose?If a dog chews shoes whose shoes does he choose?</p>
                 <div className='flex my-5'>
                     <div className="w-16 rounded-full ring ring-primary mr-5">
-                        <img src={people} />
+                        <img src={people} alt=''/>
                     </div>
                     <div>
                         <p className='text-xl'>Koushik Roy</p>
