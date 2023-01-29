@@ -15,10 +15,10 @@ const Booking = ({booking,setTreatment}) => {
                 <p className='uppercase'>{slots.length} {slots.length>1? 'spaces':'space'} available</p>
                 <div className="card-actions justify-center">
                     <label
-                    for="booking-modal" 
+                    htmlFor="booking-modal" 
                     onClick={()=>setTreatment(booking)} 
                     disabled={slots.length ===0} 
-                    className="btn btn-secondary w-full">Book Appointment</label>
+                    className="btn btn-sm btn-secondary text-bold bg-gradient-to-r from-secondary to-primary ">Book Appointment</label>
                 </div>
             </div>
         </div>

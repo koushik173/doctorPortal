@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Login = () => {
+const MyReview = () => {
     return (
         <div>
-            <p>this is Login</p>
+            <h1>MY Reviews</h1>
         </div>
     );
 };
 
-export default Login;
+export default MyReview;
